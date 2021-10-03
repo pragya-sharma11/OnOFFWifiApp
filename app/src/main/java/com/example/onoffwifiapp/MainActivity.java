@@ -19,6 +19,12 @@ public class MainActivity extends AppCompatActivity {
         b1 = findViewById(R.id.button);
         b2 = findViewById(R.id.button2);
         wf = (WifiManager) getSystemService(WIFI_SERVICE);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                wf.setWifiEnabled(true);
+            }
+        });
 
     }
 }
