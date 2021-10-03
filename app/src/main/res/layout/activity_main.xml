@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="207dp"
-        android:layout_height="88dp"
+        android:layout_width="223dp"
+        android:layout_height="94dp"
         android:text="On Wifi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
